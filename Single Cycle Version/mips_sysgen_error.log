@@ -1,0 +1,45 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 14.4                   C:/Xilinx/14.4/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               C:/Program Files/MATLAB/R2012b
+ISE                                     C:/Xilinx/14.4/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: HDL simulation model compilation failed.
+ERROR:HDLCompile...
+     Block: 'mips/Black Box'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'mips/Black Box'
+
+Details:
+HDL simulation model compilation failed.
+ERROR:HDLCompiler:53 - "xlisim_mips_top.v" Line 1123:
+<ctrl_memtoreg> is not a port.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1112: Module
+<mips_top> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1270: Module
+<mipsalu> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1290: Module
+<alucontrol> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1315: Module
+<control> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1367: Module
+<datamem> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1388: Module
+<instrmem> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1423: Module
+<pc> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1436: Module
+<regblock> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1459: Module
+<signextend> ignored due to previous errors.
+ERROR:HDLCompiler:598 - "xlisim_mips_top.v" Line 1473: Module
+<xlisim_mips_top> ignored due to previous errors.
+
+Error occurred during "Simulation Initialization".
+
+--------------------------------------------------------------------------------

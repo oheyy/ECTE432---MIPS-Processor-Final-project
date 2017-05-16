@@ -1,0 +1,38 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/test/mips_pipeline_tb_isim_beh.exe" -prj "H:/test/mips_pipeline_tb_beh.prj" "work.mips_pipeline_tb" "work.glbl" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/test/mips_pipeline_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "H:/test/mips_pipeline_tb.v" Line 33: Port aluaa is not connected to this instance
+Completed static elaboration
+Compiling module pc
+Compiling module instrmem
+Compiling module pcplus4
+Compiling module if_id_reg
+Compiling module pc_mux
+Compiling module regblock
+Compiling module signextend
+Compiling module control
+Compiling module mux_bubble
+Compiling module id_ex_reg
+Compiling module alub_mux
+Compiling module regdst_mux
+Compiling module leftshift_add
+Compiling module alucontrol
+Compiling module mipsalu
+Compiling module ex_mem_reg
+Compiling module datamem
+Compiling module mem_wb_reg
+Compiling module memtoreg_mux
+Compiling module hazard_detection_unit
+Compiling module pipeline_top
+Compiling module mips_pipeline_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 23 Verilog Units
+Built simulation executable H:/test/mips_pipeline_tb_isim_beh.exe
+Fuse Memory Usage: 29872 KB
+Fuse CPU Usage: 857 ms

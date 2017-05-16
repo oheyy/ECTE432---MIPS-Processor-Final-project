@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="test.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_pipeline_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mips_pipeline_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mips_pipeline_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_pipeline_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="regblock.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="regblock.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="regblock.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="signextend.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="signextend.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="signextend.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1446036359" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036359" xil_pn:in_ck="-2421745237812071540" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="alub_mux.v"/>
+      <outfile xil_pn:name="alucontrol.v"/>
+      <outfile xil_pn:name="control.v"/>
+      <outfile xil_pn:name="datamem.v"/>
+      <outfile xil_pn:name="ex_mem_reg.v"/>
+      <outfile xil_pn:name="hazard_detection_unit.v"/>
+      <outfile xil_pn:name="id_ex_reg.v"/>
+      <outfile xil_pn:name="if_id_reg.v"/>
+      <outfile xil_pn:name="instrmem.v"/>
+      <outfile xil_pn:name="leftshift_add.v"/>
+      <outfile xil_pn:name="mem_wb_reg.v"/>
+      <outfile xil_pn:name="memtoreg_mux.v"/>
+      <outfile xil_pn:name="mips_pipeline_tb.v"/>
+      <outfile xil_pn:name="mux_bubble.v"/>
+      <outfile xil_pn:name="pc.v"/>
+      <outfile xil_pn:name="pc_mux.v"/>
+      <outfile xil_pn:name="pcplus4.v"/>
+      <outfile xil_pn:name="pipeline_top.v"/>
+      <outfile xil_pn:name="regblock.v"/>
+      <outfile xil_pn:name="regdst_mux.v"/>
+      <outfile xil_pn:name="signextend.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036359" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2562347011823416826" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036359" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5562599617307408616" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036359" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8018725806109416357" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036360" xil_pn:in_ck="-2421745237812071540" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1446036359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="alub_mux.v"/>
+      <outfile xil_pn:name="alucontrol.v"/>
+      <outfile xil_pn:name="control.v"/>
+      <outfile xil_pn:name="datamem.v"/>
+      <outfile xil_pn:name="ex_mem_reg.v"/>
+      <outfile xil_pn:name="hazard_detection_unit.v"/>
+      <outfile xil_pn:name="id_ex_reg.v"/>
+      <outfile xil_pn:name="if_id_reg.v"/>
+      <outfile xil_pn:name="instrmem.v"/>
+      <outfile xil_pn:name="leftshift_add.v"/>
+      <outfile xil_pn:name="mem_wb_reg.v"/>
+      <outfile xil_pn:name="memtoreg_mux.v"/>
+      <outfile xil_pn:name="mips_pipeline_tb.v"/>
+      <outfile xil_pn:name="mux_bubble.v"/>
+      <outfile xil_pn:name="pc.v"/>
+      <outfile xil_pn:name="pc_mux.v"/>
+      <outfile xil_pn:name="pcplus4.v"/>
+      <outfile xil_pn:name="pipeline_top.v"/>
+      <outfile xil_pn:name="regblock.v"/>
+      <outfile xil_pn:name="regdst_mux.v"/>
+      <outfile xil_pn:name="signextend.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036369" xil_pn:in_ck="-2421745237812071540" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7291122861210534755" xil_pn:start_ts="1446036360">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mips_pipeline_tb_beh.prj"/>
+      <outfile xil_pn:name="mips_pipeline_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1446036369" xil_pn:in_ck="2527938211786610962" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9064631548510597562" xil_pn:start_ts="1446036369">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mips_pipeline_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
